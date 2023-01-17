@@ -1,0 +1,9 @@
+connections:
+  play.test.com:
+    commands:
+      - "broadcast {player} joined from play.test.com"
+      - "broadcast test2"
+  play.test2.com:
+    commands:
+      - "broadcast {player} joined from play.test.com"
+      - "broadcast test2"
