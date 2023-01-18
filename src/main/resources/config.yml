@@ -1,9 +1,9 @@
 connections:
-  play.test.com:
+  play.test1.com:
     commands:
-      - "broadcast {player} joined from play.test.com"
-      - "broadcast test2"
+      - "broadcast {player} joined from play.test1.com"
+      - "broadcast test1"
   play.test2.com:
     commands:
-      - "broadcast {player} joined from play.test.com"
+      - "broadcast {player} joined from play.test2.com"
       - "broadcast test2"
