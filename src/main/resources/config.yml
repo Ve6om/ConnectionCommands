@@ -7,3 +7,5 @@ connections:
     commands:
       - "broadcast {player} joined from play.test2.com"
       - "broadcast test2"
+update-check:
+  enabled: true
